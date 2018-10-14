@@ -1,0 +1,26 @@
+# Make this config main
+root = true
+
+# Configuration for frontend-related source code files
+[*.{js,jsx,ts,tsx,css,less,sass,scss,svg}]
+# Must use space for indentations
+indent_style = space
+
+# Must use *nix line endings
+end_of_line = lf
+
+# Must use indent size equal to 4 spaces
+indent_size = 4
+
+# Must use unicode for text files
+charset = utf-8
+
+# Must not use trailing whitespace chars
+trim_trailing_whitespace = true
+
+# Must use trailing newlines for source code files
+insert_final_newline = true
+
+# Must use 100 characters per line max
+max_line_length = 100
+
